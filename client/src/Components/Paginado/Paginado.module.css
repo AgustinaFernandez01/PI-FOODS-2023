@@ -1,0 +1,31 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.center li{
+    text-align: center;
+}
+  
+.pagination li{
+    display: inline-block;
+}
+  
+.pagination li button {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+  
+.pagination li button.hovered {
+    background-color: #fd684d;
+    color: white;
+    border: 1px solid #777db8;
+}
+  
+.pagination li button:hover:not(.hovered) {background-color: #fd684d; color: white;}
+
+

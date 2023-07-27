@@ -1,0 +1,44 @@
+/* SearchBar.module.css */
+
+/* Contenedor principal de la barra de búsqueda */
+.searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Cambia el color de fondo según tus preferencias */
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos del logotipo */
+  .logo {
+    width: 100px; 
+    height: 70px; 
+    margin-right: 30px; /* Espacio entre el logotipo y la entrada de búsqueda */
+  }
+  
+  /* Estilos de la entrada de búsqueda */
+  .searchInput {
+    flex: 1; /* Hace que la entrada de búsqueda ocupe todo el espacio restante */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent; /* Para eliminar el fondo de la entrada */
+  }
+   
+  /* Estilos del botón de búsqueda */
+  .buttonSearch {
+    padding: 15px 20px;
+    background-color: #007bff; /* Cambia el color del botón según tus preferencias */
+    color: #fff; /* Cambia el color del texto del botón según tus preferencias */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+   
+  .buttonSearch:hover {
+    background-color: #0056b3; /* Cambia el color del botón al pasar el mouse por encima */
+  }
