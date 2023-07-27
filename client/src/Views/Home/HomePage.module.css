@@ -1,0 +1,80 @@
+.containerHome{
+    background-color: #DEE8FF;
+    padding-top: 1rem;
+    min-height: 100vh;
+  }
+  .secondContainer{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .header{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 1.2rem;
+  }
+  
+  
+  .footer{
+    height: 250px;
+    background-color: #FF795B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .footerDeveloper{
+    color: #FBFBFB;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+  }
+  
+  .footerDeveloper :is(span){
+    font-weight: 700;
+  }
+  
+  .footerLinkedin{
+    margin-right: 0.5rem;
+  }
+  .footerGithub{
+    margin-left: 0.5rem;
+  }
+  
+  @media (min-width: 450px) {
+    .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: none;
+    }
+  
+    .footer{
+      height: 130px;
+    }
+  
+    .footerDeveloper{
+      flex-direction: row;
+      column-gap: 5px;
+    }
+    
+  }
+
+
+  .nav{
+    background-color: #DEE8FF;
+  }
+
+  
