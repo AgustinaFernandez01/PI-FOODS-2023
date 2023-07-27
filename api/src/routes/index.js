@@ -9,7 +9,7 @@ const dietsTypesHandler = require('../handlers/dietsTypesHandler');
 // Ejemplo: router.use('/auth', authRouter);
 const router = Router();
 
-//POST 
+//POST
 router.post('/recipes', createRecipeHandler);
 //GETS
 router.get('/recipes', searchByNameHandler)
@@ -17,3 +17,7 @@ router.get('/recipes', searchByNameHandler)
 router.get('/recipes/:id', detailByIdHandler)
 
 router.get('/diets', dietsTypesHandler); 
+
+
+
+module.exports = router;
