@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 
  
 export default function Home() {
-    const dispatch = useDispatch();
+    const dispatch = useDispatch();  
 //estados
     const recipes = useSelector(state => state.recipes);
     const diets = useSelector(state => state.diets);
